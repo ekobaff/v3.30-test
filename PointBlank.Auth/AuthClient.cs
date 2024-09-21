@@ -1,10 +1,4 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: PointBlank.Auth.AuthClient
-// Assembly: PointBlank.Auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: 2F2D71E3-3E87-4155-AA64-E654DA3CFF2D
-// Assembly location: C:\Users\LucasRoot\Desktop\Servidor BG\PointBlank.Auth.exe
-
-using Microsoft.Win32.SafeHandles;
+﻿using Microsoft.Win32.SafeHandles;
 using PointBlank.Auth.Data.Configs;
 using PointBlank.Auth.Data.Model;
 using PointBlank.Auth.Data.Sync;
@@ -23,67 +17,67 @@ using System.Threading;
 
 namespace PointBlank.Auth
 {
-  public class AuthClient : IDisposable
-  {
-    public Socket _client;
-    public Account _player;
-    public DateTime ConnectDate;
-    public uint SessionId;
-    public ushort SessionSeed;
-    public int Shift;
-    public int firstPacketId;
-    private byte[] lastCompleteBuffer;
-    private bool disposed;
-    private bool closed;
-    private SafeHandle handle = (SafeHandle) new SafeFileHandle(IntPtr.Zero, true);
-
-    public void Dispose()
+    public class AuthClient : IDisposable
     {
-      try
-      {
-        if (this.disposed)
-          return;
-        if (this._client != null)
+        public Socket _client;
+        public Account _player;
+        public DateTime ConnectDate;
+        public uint SessionId;
+        public ushort SessionSeed;
+        public int Shift;
+        public int firstPacketId;
+        private byte[] lastCompleteBuffer;
+        private bool disposed;
+        private bool closed;
+        private SafeHandle handle = (SafeHandle)new SafeFileHandle(IntPtr.Zero, true);
+
+        public void Dispose()
         {
-          this._client.Dispose();
-          this._client = (Socket) null;
+            try
+            {
+                if (this.disposed)
+                    return;
+                if (this._client != null)
+                {
+                    this._client.Dispose();
+                    this._client = (Socket)null;
+                }
+                this.handle.Dispose();
+                this.disposed = true;
+                GC.SuppressFinalize((object)this);
+            }
+            catch
+            {
+            }
         }
-        this.handle.Dispose();
-        this.disposed = true;
-        GC.SuppressFinalize((object) this);
-      }
-      catch
-      {
-      }
-    }
 
-    protected virtual void Dispose(bool disposing)
-    {
-      try
-      {
-        if (this.disposed)
-          return;
-        this._player = (Account) null;
-        if (this._client != null)
+        protected virtual void Dispose(bool disposing)
         {
-          this._client.Dispose();
-          this._client = (Socket) null;
+            try
+            {
+                if (this.disposed)
+                    return;
+                this._player = (Account)null;
+                if (this._client != null)
+                {
+                    this._client.Dispose();
+                    this._client = (Socket)null;
+                }
+                if (disposing)
+                    this.handle.Dispose();
+                this.disposed = true;
+            }
+            catch
+            {
+            }
         }
-        if (disposing)
-          this.handle.Dispose();
-        this.disposed = true;
-      }
-      catch
-      {
-      }
-    }
 
-    public AuthClient(Socket client)
-    {
-      this._client = client;
-      this._client.NoDelay = true;
-      this.SessionSeed = IdFactory.GetInstance().NextSeed();
-    }
+        public AuthClient(Socket client)
+        {
+            this._client = client;
+            this._client.NoDelay = true;
+            this.SessionSeed = IdFactory.GetInstance().NextSeed();
+        }
 
         public void Start()
         {
@@ -101,99 +95,99 @@ namespace PointBlank.Auth
         }
 
         public string GetIPAddress()
-    {
-      try
-      {
-        return this._client != null && this._client.RemoteEndPoint != null ? ((IPEndPoint) this._client.RemoteEndPoint).Address.ToString() : "";
-      }
-      catch
-      {
-        return "";
-      }
-    }
-
-    public IPAddress GetAddress()
-    {
-      try
-      {
-        return this._client != null && this._client.RemoteEndPoint != null ? ((IPEndPoint) this._client.RemoteEndPoint).Address : (IPAddress) null;
-      }
-      catch
-      {
-        return (IPAddress) null;
-      }
-    }
-
-    private void Connect() => this.SendPacket((PointBlank.Core.Network.SendPacket) new PROTOCOL_BASE_CONNECT_ACK(this));
-
-    public void SendCompletePacket(byte[] data)
-    {
-      try
-      {
-        if (data.Length < 4)
-          return;
-        if (AuthConfig.debugMode)
         {
-          ushort uint16 = BitConverter.ToUInt16(data, 2);
-          string str1 = "";
-          string str2 = BitConverter.ToString(data);
-          char[] chArray = new char[5]
-          {
+            try
+            {
+                return this._client != null && this._client.RemoteEndPoint != null ? ((IPEndPoint)this._client.RemoteEndPoint).Address.ToString() : "";
+            }
+            catch
+            {
+                return "";
+            }
+        }
+
+        public IPAddress GetAddress()
+        {
+            try
+            {
+                return this._client != null && this._client.RemoteEndPoint != null ? ((IPEndPoint)this._client.RemoteEndPoint).Address : (IPAddress)null;
+            }
+            catch
+            {
+                return (IPAddress)null;
+            }
+        }
+
+        private void Connect() => this.SendPacket((PointBlank.Core.Network.SendPacket)new PROTOCOL_BASE_CONNECT_ACK(this));
+
+        public void SendCompletePacket(byte[] data)
+        {
+            try
+            {
+                if (data.Length < 4)
+                    return;
+                if (AuthConfig.debugMode)
+                {
+                    ushort uint16 = BitConverter.ToUInt16(data, 2);
+                    string str1 = "";
+                    string str2 = BitConverter.ToString(data);
+                    char[] chArray = new char[5]
+                    {
             '-',
             ',',
             '.',
             ':',
             '\t'
-          };
-          foreach (string str3 in str2.Split(chArray))
-            str1 = str1 + " " + str3;
-          Logger.debug("Opcode: [" + uint16.ToString() + "]");
+                    };
+                    foreach (string str3 in str2.Split(chArray))
+                        str1 = str1 + " " + str3;
+                    Logger.debug("Opcode: [" + uint16.ToString() + "]");
+                }
+                this._client.BeginSend(data, 0, data.Length, SocketFlags.None, new AsyncCallback(this.SendCallback), (object)this._client);
+            }
+            catch
+            {
+                this.Close(0, true);
+            }
         }
-        this._client.BeginSend(data, 0, data.Length, SocketFlags.None, new AsyncCallback(this.SendCallback), (object) this._client);
-      }
-      catch
-      {
-        this.Close(0, true);
-      }
-    }
 
-    public void SendPacket(byte[] data)
-    {
-      try
-      {
-        if (data.Length < 2)
-          return;
-        ushort uint16_1 = Convert.ToUInt16(data.Length - 2);
-        List<byte> byteList = new List<byte>(data.Length + 2);
-        byteList.AddRange((IEnumerable<byte>) BitConverter.GetBytes(uint16_1));
-        byteList.AddRange((IEnumerable<byte>) data);
-        byte[] array = byteList.ToArray();
-        if (AuthConfig.debugMode)
+        public void SendPacket(byte[] data)
         {
-          ushort uint16_2 = BitConverter.ToUInt16(data, 0);
-          string str1 = "";
-          string str2 = BitConverter.ToString(array);
-          char[] chArray = new char[5]
-          {
+            try
+            {
+                if (data.Length < 2)
+                    return;
+                ushort uint16_1 = Convert.ToUInt16(data.Length - 2);
+                List<byte> byteList = new List<byte>(data.Length + 2);
+                byteList.AddRange((IEnumerable<byte>)BitConverter.GetBytes(uint16_1));
+                byteList.AddRange((IEnumerable<byte>)data);
+                byte[] array = byteList.ToArray();
+                if (AuthConfig.debugMode)
+                {
+                    ushort uint16_2 = BitConverter.ToUInt16(data, 0);
+                    string str1 = "";
+                    string str2 = BitConverter.ToString(array);
+                    char[] chArray = new char[5]
+                    {
             '-',
             ',',
             '.',
             ':',
             '\t'
-          };
-          foreach (string str3 in str2.Split(chArray))
-            str1 = str1 + " " + str3;
-          Logger.debug("Opcode: [" + uint16_2.ToString() + "]");
+                    };
+                    foreach (string str3 in str2.Split(chArray))
+                        str1 = str1 + " " + str3;
+                    Logger.debug("Opcode: [" + uint16_2.ToString() + "]");
+                }
+                if (array.Length != 0)
+                    this._client.BeginSend(array, 0, array.Length, SocketFlags.None, new AsyncCallback(this.SendCallback), (object)this._client);
+                byteList.Clear();
+            }
+            catch
+            {
+                this.Close(0, true);
+            }
         }
-        if (array.Length != 0)
-          this._client.BeginSend(array, 0, array.Length, SocketFlags.None, new AsyncCallback(this.SendCallback), (object) this._client);
-        byteList.Clear();
-      }
-      catch
-      {
-        this.Close(0, true);
-      }
-    }
 
         public void SendPacket(SendPacket bp)
         {
@@ -247,71 +241,71 @@ namespace PointBlank.Auth
 
 
         private void SendCallback(IAsyncResult ar)
-    {
-      try
-      {
-        Socket asyncState = (Socket) ar.AsyncState;
-        if (asyncState == null || !asyncState.Connected)
-          return;
-        asyncState.EndSend(ar);
-      }
-      catch
-      {
-        this.Close(0, true);
-      }
-    }
-
-    private void Read()
-    {
-      try
-      {
-        AuthClient.StateObject stateObject = new AuthClient.StateObject();
-        stateObject.workSocket = this._client;
-        this._client.BeginReceive(stateObject.buffer, 0, 8096, SocketFlags.None, new AsyncCallback(this.OnReceiveCallback), (object) stateObject);
-      }
-      catch
-      {
-        this.Close(0, true);
-      }
-    }
-
-    public void Close(int time, bool destroyConnection)
-    {
-      if (this.closed)
-        return;
-      try
-      {
-        this.closed = true;
-        Account player = this._player;
-        if (destroyConnection)
         {
-          if (player != null)
-          {
-            player.setOnlineStatus(false);
-            if (player._status.serverId == (byte) 0)
-              SendRefresh.RefreshAccount(player, false);
-            player._status.ResetData(player.player_id);
-            player.SimpleClear();
-            player.updateCacheInfo();
-            this._player = (Account) null;
-          }
-          this._client.Close(time);
-          Thread.Sleep(time);
-          this.Dispose();
+            try
+            {
+                Socket asyncState = (Socket)ar.AsyncState;
+                if (asyncState == null || !asyncState.Connected)
+                    return;
+                asyncState.EndSend(ar);
+            }
+            catch
+            {
+                this.Close(0, true);
+            }
         }
-        else if (player != null)
+
+        private void Read()
         {
-          player.SimpleClear();
-          player.updateCacheInfo();
-          this._player = (Account) null;
+            try
+            {
+                AuthClient.StateObject stateObject = new AuthClient.StateObject();
+                stateObject.workSocket = this._client;
+                this._client.BeginReceive(stateObject.buffer, 0, 8096, SocketFlags.None, new AsyncCallback(this.OnReceiveCallback), (object)stateObject);
+            }
+            catch
+            {
+                this.Close(0, true);
+            }
         }
-        AuthSync.UpdateGSCount(0);
-      }
-      catch (Exception ex)
-      {
-        Logger.warning("AuthClient.Close " + ex.ToString());
-      }
-    }
+
+        public void Close(int time, bool destroyConnection)
+        {
+            if (this.closed)
+                return;
+            try
+            {
+                this.closed = true;
+                Account player = this._player;
+                if (destroyConnection)
+                {
+                    if (player != null)
+                    {
+                        player.setOnlineStatus(false);
+                        if (player._status.serverId == (byte)0)
+                            SendRefresh.RefreshAccount(player, false);
+                        player._status.ResetData(player.player_id);
+                        player.SimpleClear();
+                        player.updateCacheInfo();
+                        this._player = (Account)null;
+                    }
+                    this._client.Close(time);
+                    Thread.Sleep(time);
+                    this.Dispose();
+                }
+                else if (player != null)
+                {
+                    player.SimpleClear();
+                    player.updateCacheInfo();
+                    this._player = (Account)null;
+                }
+                AuthSync.UpdateGSCount(0);
+            }
+            catch (Exception ex)
+            {
+                Logger.warning("AuthClient.Close " + ex.ToString());
+            }
+        }
         private void BeginResult()
         {
             try
@@ -346,8 +340,8 @@ namespace PointBlank.Auth
                         Array.Copy(asyncState.buffer, 2, packetDataEncryted, 0, packetDataEncryted.Length);
 
                         //Pacote recebido da client e decriptado.
-                        int shift = (int)SessionId % 7 + 1;
-                        CBitRotDecryptor(packetDataEncryted, 0, 2048, shift);
+                        //int shift = (int)SessionId % 7 + 1;
+                        CBitRotDecryptor(packetDataEncryted, 0, 2048, 1);
                         RunPacket(packetDataEncryted);
 
                         //   CheckOut(babyBuffer, PacketLengthTotal);
@@ -387,39 +381,39 @@ namespace PointBlank.Auth
             }
         }
         public void CheckOut(byte[] buffer, int FirstLength)
-    {
-      int length = buffer.Length;
-      try
-      {
-        byte[] numArray = new byte[length - FirstLength - 4];
-        Array.Copy((Array) buffer, FirstLength + 4, (Array) numArray, 0, numArray.Length);
-        if (numArray.Length == 0)
-          return;
-        int FirstLength1 = (int) BitConverter.ToUInt16(numArray, 0) & (int) short.MaxValue;
-        byte[] data = new byte[FirstLength1 + 2];
-        Array.Copy((Array) numArray, 2, (Array) data, 0, data.Length);
-        byte[] buff = new byte[FirstLength1 + 2];
-        Array.Copy((Array) ComDiv.Decrypt(data, this.Shift), 0, (Array) buff, 0, buff.Length);
-        this.RunPacket(buff);
-        this.CheckOut(numArray, FirstLength1);
-      }
-      catch
-      {
-      }
-    }
+        {
+            int length = buffer.Length;
+            try
+            {
+                byte[] numArray = new byte[length - FirstLength - 4];
+                Array.Copy((Array)buffer, FirstLength + 4, (Array)numArray, 0, numArray.Length);
+                if (numArray.Length == 0)
+                    return;
+                int FirstLength1 = (int)BitConverter.ToUInt16(numArray, 0) & (int)short.MaxValue;
+                byte[] data = new byte[FirstLength1 + 2];
+                Array.Copy((Array)numArray, 2, (Array)data, 0, data.Length);
+                byte[] buff = new byte[FirstLength1 + 2];
+                Array.Copy((Array)ComDiv.Decrypt(data, this.Shift), 0, (Array)buff, 0, buff.Length);
+                this.RunPacket(buff);
+                this.CheckOut(numArray, FirstLength1);
+            }
+            catch
+            {
+            }
+        }
 
-    private void FirstPacketCheck(ushort packetId)
-    {
-      if (this.firstPacketId != 0)
-        return;
-      this.firstPacketId = (int) packetId;
-      if (packetId == (ushort) 257 || packetId == (ushort) 517)
-        return;
-      this.Close(0, true);
-    }
+        private void FirstPacketCheck(ushort packetId)
+        {
+            if (this.firstPacketId != 0)
+                return;
+            this.firstPacketId = (int)packetId;
+            if (packetId == (ushort)257 || packetId == (ushort)517)
+                return;
+            this.Close(0, true);
+        }
         private bool PacketCheckAuth(ushort uint16)
         {
-           
+
 
             if (uint16 == 257) { return true; }
             else if (uint16 == 515) { return true; }
@@ -435,85 +429,85 @@ namespace PointBlank.Auth
             else if (uint16 == 666) { return true; }
             else if (uint16 == 1057) { return true; }
             else if (uint16 == 5377) { return true; }
-            else 
+            else
             {
 
-              
-                return false; 
-            
+
+                return false;
+
             }
         }
 
         private void RunPacket(byte[] buff)
         {
-      ushort uint16 = BitConverter.ToUInt16(buff, 0);
-      int firstPacketId = this.firstPacketId;
-      this.FirstPacketCheck(uint16);
-      //ushort uintOK;
-      //if (PacketCheckAuth(uint16)) { uintOK = uint16; } else{ this._client.Close(1000);   uintOK = 517; }
-      if (this.closed)
-        return;
-      ReceivePacket receivePacket = (ReceivePacket) null;
-      switch (uint16)
-      {
-        case 257:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_LOGIN_REQ(this, buff);
-          goto case 517;
-        case 515:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_LOGOUT_REQ(this, buff);
-          goto case 517;
-        case 517:
-          if (receivePacket == null)
-            break;
-          new Thread(new ThreadStart(receivePacket.run)).Start();
-          break;
-        case 520:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_GAMEGUARD_REQ(this, buff);
-          goto case 517;
-        case 522:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_GET_SYSTEM_INFO_REQ(this, buff);
-          goto case 517;
-        case 524:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_GET_USER_INFO_REQ(this, buff);
-          goto case 517;
-        case 526:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_GET_INVEN_INFO_REQ(this, buff);
-          goto case 517;
-        case 528:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_GET_OPTION_REQ(this, buff);
-          goto case 517;
-        case 530:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_OPTION_SAVE_REQ(this, buff);
-          goto case 517;
-        case 536:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_USER_LEAVE_REQ(this, buff);
-          goto case 517;
-        case 540:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_GET_CHANNELLIST_REQ(this, buff);
-          goto case 517;
-        case 667:
-          receivePacket = (ReceivePacket) new PROTOCOL_BASE_GET_MAP_INFO_REQ(this, buff);
-          goto case 517;
-        case 697:
-          receivePacket = (ReceivePacket)new PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ(this, buff);
-          goto case 517;
-        case 1057:
-          receivePacket = (ReceivePacket) new PROTOCOL_AUTH_GET_POINT_CASH_REQ(this, buff);
-          goto case 517;
-        case 5377:
-          receivePacket = (ReceivePacket) new PROTOCOL_LOBBY_QUICKJOIN_ROOM_REQ(this, buff);
-          goto case 517;
-        default:
-          Logger.error("Opcode não encontrada: " + uint16.ToString());
-          goto case 517;
-      }
-    }
+            ushort uint16 = BitConverter.ToUInt16(buff, 0);
+            int firstPacketId = this.firstPacketId;
+            this.FirstPacketCheck(uint16);
+            //ushort uintOK;
+            //if (PacketCheckAuth(uint16)) { uintOK = uint16; } else{ this._client.Close(1000);   uintOK = 517; }
+            if (this.closed)
+                return;
+            ReceivePacket receivePacket = (ReceivePacket)null;
+            switch (uint16)
+            {
+                case 257:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_LOGIN_REQ(this, buff);
+                    goto case 517;
+                case 515:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_LOGOUT_REQ(this, buff);
+                    goto case 517;
+                case 517:
+                    if (receivePacket == null)
+                        break;
+                    new Thread(new ThreadStart(receivePacket.run)).Start();
+                    break;
+                case 520:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_GAMEGUARD_REQ(this, buff);
+                    goto case 517;
+                case 522:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_GET_SYSTEM_INFO_REQ(this, buff);
+                    goto case 517;
+                case 524:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_GET_USER_INFO_REQ(this, buff);
+                    goto case 517;
+                case 526:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_GET_INVEN_INFO_REQ(this, buff);
+                    goto case 517;
+                case 528:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_GET_OPTION_REQ(this, buff);
+                    goto case 517;
+                case 530:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_OPTION_SAVE_REQ(this, buff);
+                    goto case 517;
+                case 536:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_USER_LEAVE_REQ(this, buff);
+                    goto case 517;
+                case 540:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_GET_CHANNELLIST_REQ(this, buff);
+                    goto case 517;
+                case 667:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_GET_MAP_INFO_REQ(this, buff);
+                    goto case 517;
+                case 697:
+                    receivePacket = (ReceivePacket)new PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ(this, buff);
+                    goto case 517;
+                case 1057:
+                    receivePacket = (ReceivePacket)new PROTOCOL_AUTH_GET_POINT_CASH_REQ(this, buff);
+                    goto case 517;
+                case 5377:
+                    receivePacket = (ReceivePacket)new PROTOCOL_LOBBY_QUICKJOIN_ROOM_REQ(this, buff);
+                    goto case 517;
+                default:
+                    Logger.error("Opcode não encontrada: " + uint16.ToString());
+                    goto case 517;
+            }
+        }
 
-    private class StateObject
-    {
-      public Socket workSocket;
-      public const int BufferSize = 8096;
-      public byte[] buffer = new byte[8096];
+        private class StateObject
+        {
+            public Socket workSocket;
+            public const int BufferSize = 8096;
+            public byte[] buffer = new byte[8096];
+        }
     }
-  }
 }

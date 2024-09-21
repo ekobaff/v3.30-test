@@ -24,7 +24,7 @@ namespace PointBlank.Game.Network.ServerPacket
             }
             writeH(6);
             writeH(4);
-            writeD(SessionId);
+            writeD(0);//SHIFT
             writeC(3);
             writeH(30);
             writeD(SessionSeed);

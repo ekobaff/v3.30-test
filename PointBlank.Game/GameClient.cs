@@ -1,10 +1,4 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: PointBlank.Game.GameClient
-// Assembly: PointBlank.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: 9391C126-F6F2-4165-85EA-1FCDF75131C4
-// Assembly location: C:\Users\LucasRoot\Desktop\Servidor BG\PointBlank.Game.exe
-
-using Microsoft.Win32.SafeHandles;
+﻿using Microsoft.Win32.SafeHandles;
 using PointBlank.Core;
 using PointBlank.Core.Network;
 using PointBlank.Game.Data.Configs;
@@ -33,7 +27,7 @@ namespace PointBlank.Game
         public ushort SessionSeed;
         public int Shift;
         public int firstPacketId;
-        private byte[] lastCompleteBuffer;
+        //private byte[] lastCompleteBuffer;
         private bool disposed;
         private bool closed;
         private SafeHandle handle = new SafeFileHandle(IntPtr.Zero, true);
@@ -311,8 +305,8 @@ namespace PointBlank.Game
                         Array.Copy(asyncState.buffer, 2, packetDataEncryted, 0, packetDataEncryted.Length);
 
                         //Pacote recebido da client e decriptado.
-                        int shift = (int)SessionId % 7 + 1;
-                        CBitRotDecryptor(packetDataEncryted, 0, 2048, shift);
+                        //int shift = (int)SessionId % 7 + 1;
+                        CBitRotDecryptor(packetDataEncryted, 0, 2048, 1);
                         RunPacket(packetDataEncryted);
 
                         //   CheckOut(babyBuffer, PacketLengthTotal);
@@ -720,9 +714,9 @@ namespace PointBlank.Game
                 case 1027:
                     receivePacket = new PROTOCOL_SHOP_LEAVE_REQ(this, buff);
                     break;
-                case 1029:
-                    receivePacket = new PROTOCOL_SHOP_GET_SAILLIST_REQ(this, buff);
-                    break;
+                //case 1029: //temp disable
+                //    receivePacket = new PROTOCOL_SHOP_GET_SAILLIST_REQ(this, buff);
+                //    break;
                 case 1041:
                     receivePacket = new PROTOCOL_AUTH_SHOP_GET_GIFTLIST_REQ(this, buff);
                     break;
