@@ -1,10 +1,4 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: PointBlank.Game.Data.Managers.AccountManager
-// Assembly: PointBlank.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: 9391C126-F6F2-4165-85EA-1FCDF75131C4
-// Assembly location: C:\Users\LucasRoot\Desktop\Servidor BG\PointBlank.Game.exe
-
-using Npgsql;
+﻿using Npgsql;
 using PointBlank.Core;
 using PointBlank.Core.Models.Account;
 using PointBlank.Core.Models.Account.Players;
@@ -148,8 +142,8 @@ namespace PointBlank.Game.Data.Managers
                         acc._statistic.ClanGames = npgsqlDataReader.GetInt32(48);
                         acc._statistic.ClanWins = npgsqlDataReader.GetInt32(49);
                         acc.ban_obj_id = npgsqlDataReader.GetInt64(51);
-                        //acc.token = npgsqlDataReader.GetString(52);
-                        //acc.hwid = npgsqlDataReader.GetString(53);
+                        acc.token = npgsqlDataReader.GetString(52);
+                        acc.hwid = npgsqlDataReader.GetString(53);
                         acc._tag = npgsqlDataReader.GetInt32(54);
                         acc.age = npgsqlDataReader.GetInt32(55);
                         acc.tourneyLevel = npgsqlDataReader.GetInt32(56);

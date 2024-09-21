@@ -1,10 +1,4 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: PointBlank.Game.Data.Model.Account
-// Assembly: PointBlank.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: 9391C126-F6F2-4165-85EA-1FCDF75131C4
-// Assembly location: C:\Users\LucasRoot\Desktop\Servidor BG\PointBlank.Game.exe
-
-using PointBlank.Core.Managers;
+﻿using PointBlank.Core.Managers;
 using PointBlank.Core.Models.Account;
 using PointBlank.Core.Models.Account.Players;
 using PointBlank.Core.Models.Account.Title;
@@ -32,8 +26,8 @@ namespace PointBlank.Game.Data.Model
         public string player_name = "";
         public string password;
         public string login;
-        //public string token;
-        //public string hwid;
+        public string token;
+        public string hwid;
         public string FindPlayer = "";
         public long player_id;
         public long ban_obj_id;
