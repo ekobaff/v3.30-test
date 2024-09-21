@@ -24,7 +24,7 @@ namespace PointBlank.Auth.Network.ServerPacket
             }
             writeH(6);
             writeH(4);
-            writeD(0);
+            writeD(0);//SHIFT
             writeC(3);
             writeH(30);
             writeD(SessionSeed);
