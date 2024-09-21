@@ -1,0 +1,35 @@
+{
+    "Name":"BattleBox DragonSniper",
+    "Price":5,
+    "Enable":false,
+    "Itens": [
+        {
+            "Item": 103111,
+            "ItemName": "AUG-A3_BR-Camo",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+        },
+        {
+            "Item": 103112,
+            "ItemName": "AUG-A3_Turkey",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+        },
+        {
+            "Item": 103163,
+            "ItemName": "AUG-A3_PC_Cafe",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+        },
+        {
+            "Item": 103164,
+            "ItemName": "AUG_A3_G_ESports",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+        }
+    ]
+}

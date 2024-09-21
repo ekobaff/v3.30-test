@@ -1,0 +1,42 @@
+{
+    "Name":"BattleBox Dragon",
+    "Price":5,
+    "Enable":false,
+    "Itens": [
+        {
+            "Item": 103635,
+            "ItemName": "AUG_A3_Noblesse",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+        },
+        {
+            "Item": 301328,
+            "ItemName": "GH5007_Noblesse",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+        },
+        {
+            "Item": 105437,
+            "ItemName": "Kar98k Noblesse",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+        },
+        {
+            "Item": 104933,
+            "ItemName": "KrissSuperV_CRB_Noblesse",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 202204,
+            "ItemName": "Taurus_454SS_Noblesse",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+        }
+    ]
+}

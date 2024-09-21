@@ -1,0 +1,69 @@
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\Debug\PointBlank.Battle.exe.config
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\Debug\PointBlank.Battle.exe.config
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Battle.exe.config
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Battle.exe.config
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\Debug\PointBlank.Battle.exe.config
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\Debug\PointBlank.Battle.exe.config
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\Debug\PointBlank.Battle.pdb
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\ekobaff!\Desktop\Server\v3.24\Debug\PointBlank.Battle.exe.config
+C:\Users\ekobaff!\Desktop\Server\v3.24\Debug\PointBlank.Battle.exe
+C:\Users\ekobaff!\Desktop\Server\v3.24\Debug\PointBlank.Battle.pdb
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\Debug\PointBlank.Battle.exe.config
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\Debug\PointBlank.Battle.exe
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\Debug\PointBlank.Battle.pdb
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb

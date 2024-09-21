@@ -1,0 +1,86 @@
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\Debug\PointBlank.Game.exe.config
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Game\obj\Debug\PointBlank.Game.Properties.Resources.resources
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.GenerateResource.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CopyComplete
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Game\obj\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server_OficialOriginal_4\PointBlank.Game\obj\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\Debug\PointBlank.Game.exe.config
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Game\obj\Debug\PointBlank.Game.Properties.Resources.resources
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.GenerateResource.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CopyComplete
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Game\obj\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server -\PointBlank.Game\obj\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Game.exe.config
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.Properties.Resources.resources
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.GenerateResource.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CopyComplete
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\C# - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Game.exe.config
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.Properties.Resources.resources
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.GenerateResource.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CopyComplete
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\obj\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\Debug\PointBlank.Game.exe.config
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Game\obj\Debug\PointBlank.Game.Properties.Resources.resources
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.GenerateResource.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CopyComplete
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Game\obj\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\PB - Combat Global\Servidores\Servidor V3\PointBlank.Game\obj\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\Debug\PointBlank.Game.exe.config
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\Debug\PointBlank.Game.pdb
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.AssemblyReference.cache
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.Properties.Resources.resources
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.GenerateResource.cache
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CoreCompileInputs.cache
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CopyComplete
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.exe
+C:\Users\Server\Desktop\Point Blank Files\Servidores\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.pdb
+C:\Users\ekobaff!\Desktop\Server\v3.24\Debug\PointBlank.Game.exe.config
+C:\Users\ekobaff!\Desktop\Server\v3.24\Debug\PointBlank.Game.exe
+C:\Users\ekobaff!\Desktop\Server\v3.24\Debug\PointBlank.Game.pdb
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.AssemblyReference.cache
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.Properties.Resources.resources
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.GenerateResource.cache
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CoreCompileInputs.cache
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CopyComplete
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.exe
+C:\Users\ekobaff!\Desktop\Server\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.pdb
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\Debug\PointBlank.Game.exe.config
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\Debug\PointBlank.Game.exe
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\Debug\PointBlank.Game.pdb
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.AssemblyReference.cache
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.Properties.Resources.resources
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.GenerateResource.cache
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CoreCompileInputs.cache
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.csproj.CopyComplete
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.exe
+C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Game\obj\Debug\PointBlank.Game.pdb

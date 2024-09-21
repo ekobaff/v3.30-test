@@ -1,0 +1,15 @@
+
+
+ ____  ____  _  _      _____    ____  _     ____  _      _  __   _    _____    ____     _ 
+/  __\/  _ \/ \/ \  /|/__ __\  /  __\/ \   /  _ \/ \  /|/ |/ /  / \ |\\__  \  /_   \/\ / |
+|  \/|| / \|| || |\ ||  / \    | | //| |   | / \|| |\ |||   /   | | //  /  |   /   /\_\| |
+|  __/| \_/|| || | \||  | |    | |_\\| |_/\| |-||| | \|||   \   | \//  _\  |__/   /_   | |
+\_/   \____/\_/\_/  \|  \_/    \____/\____/\_/ \|\_/  \|\_|\_\  \__/  /____/\/\____/   \_|
+
+
+11:48:54 [Debug] Servidor Iniciado. (21.09.24 11:48:54)
+11:48:54 [Debug] Auth Iniciado. 127.0.0.1
+11:49:26 [Error] DiscountPlayerItems: System.OverflowException: Değer bir Int32 için çok büyük ya da çok küçüktü.
+   konum: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   konum: System.Convert.ToInt32(String value)
+   konum: PointBlank.Auth.Data.Model.Account.DiscountPlayerItems() C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Auth\Data\Model\Account.cs içinde: satır 311

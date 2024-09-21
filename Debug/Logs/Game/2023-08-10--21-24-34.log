@@ -1,0 +1,198 @@
+|_____________________________+++++++++++++++++++++_____________________________|
+|                                                                               |
+|                                                                               |
+|                                POINT BLANK GAME                               |
+|                                  COMBAT GLOBAL                                |
+|                                 combatglobal.xyz                              |
+|______________________________++++++++++++++++++++_____________________________|
+21:24:35 [Error] System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\Debug\Config\Weapon.ini'.
+Nome do arquivo: 'C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\Debug\Config\Weapon.ini'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   em System.IO.StreamReader..ctor(String path)
+   em PointBlank.Core.ConfigFile.LoadStrings() na C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Core\ConfigFile.cs:linha 36
+21:24:35 [Warning] Parameter failure: EventWeapon
+21:24:35 [Warning] Parameter failure: EventWeaponID0
+21:24:35 [Warning] Parameter failure: EventWeaponID1
+21:24:35 [Warning] Parameter failure: EventWeaponID2
+21:24:35 [Warning] Parameter failure: EventWeaponID3
+21:24:35 [Warning] Parameter failure: EventWeaponID4
+21:24:35 [Warning] Parameter failure: EventWeaponID5
+21:24:35 [Warning] Parameter failure: EventWeaponID6
+21:24:35 [Warning] Parameter failure: EventWeaponID7
+21:24:35 [Warning] Parameter failure: EventWeaponID8
+21:24:35 [Warning] Parameter failure: EventWeaponID9
+21:24:35 [Warning] Parameter failure: EventWeaponID10
+21:24:35 [Warning] Parameter failure: EventWeaponID11
+21:24:35 [Warning] Parameter failure: EventWeaponID12
+21:24:35 [Warning] Parameter failure: EventWeaponXP
+21:24:43 [Error] System.Net.Sockets.SocketException (0x80004005): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+   em Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   em Npgsql.NpgsqlConnector.<RawOpen>d__153.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnector.<Open>d__149.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.ConnectorPool.<AllocateLong>d__19.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.ValueTask`1.get_Result()
+   em Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnection.Open()
+   em PointBlank.Core.Xml.BasicInventoryXml.Load() na C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Core\Xml\BasicInventoryXml.cs:linha 31
+21:24:47 [Error] System.Net.Sockets.SocketException (0x80004005): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+   em Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   em Npgsql.NpgsqlConnector.<RawOpen>d__153.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnector.<Open>d__149.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.ConnectorPool.<AllocateLong>d__19.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.ValueTask`1.get_Result()
+   em Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnection.Open()
+   em PointBlank.Core.Xml.CafeInventoryXml.Load() na C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Core\Xml\CafeInventoryXml.cs:linha 32
+21:24:51 [Error] System.Net.Sockets.SocketException (0x80004005): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+   em Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   em Npgsql.NpgsqlConnector.<RawOpen>d__153.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnector.<Open>d__149.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.ConnectorPool.<AllocateLong>d__19.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.ValueTask`1.get_Result()
+   em Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnection.Open()
+   em PointBlank.Core.Managers.Server.ServerConfigSyncer.GenerateConfig(Int32 configId) na C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Core\Managers\Server\ServerConfigSyncer.cs:linha 29
+21:24:55 [Error] System.Net.Sockets.SocketException (0x80004005): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+   em Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   em Npgsql.NpgsqlConnector.<RawOpen>d__153.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnector.<Open>d__149.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.ConnectorPool.<AllocateLong>d__19.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.ValueTask`1.get_Result()
+   em Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnection.Open()
+   em PointBlank.Core.Xml.ServersXml.Load() na C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Core\Xml\ServersXml.cs:linha 43
+21:24:59 [Error] System.Net.Sockets.SocketException (0x80004005): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+   em Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   em Npgsql.NpgsqlConnector.<RawOpen>d__153.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnector.<Open>d__149.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.ConnectorPool.<AllocateLong>d__19.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.ValueTask`1.get_Result()
+   em Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnection.Open()
+   em PointBlank.Game.Data.Xml.ChannelsXml.Load(Int32 serverId) na C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Game\Data\Xml\ChannelsXml.cs:linha 28
+21:25:04 [Error] System.Net.Sockets.SocketException (0x80004005): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+   em Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   em Npgsql.NpgsqlConnector.<RawOpen>d__153.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnector.<Open>d__149.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.ConnectorPool.<AllocateLong>d__19.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.ValueTask`1.get_Result()
+   em Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnection.Open()
+   em PointBlank.Core.Managers.Events.EventVisitSyncer.GenerateList() na C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Core\Managers\Events\EventVisitSyncer.cs:linha 30
+21:25:08 [Error] System.Net.Sockets.SocketException (0x80004005): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+   em Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   em Npgsql.NpgsqlConnector.<RawOpen>d__153.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnector.<Open>d__149.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.ConnectorPool.<AllocateLong>d__19.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.ValueTask`1.get_Result()
+   em Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnection.Open()
+   em PointBlank.Core.Managers.Events.EventLoginSyncer.GenerateList() na C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Core\Managers\Events\EventLoginSyncer.cs:linha 29
+21:25:12 [Error] System.Net.Sockets.SocketException (0x80004005): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+   em Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   em Npgsql.NpgsqlConnector.<RawOpen>d__153.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnector.<Open>d__149.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.ConnectorPool.<AllocateLong>d__19.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.ValueTask`1.get_Result()
+   em Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlConnection.Open()
+   em PointBlank.Core.Managers.Events.EventMapSyncer.GenerateList() na C:\Users\Server\Desktop\PB - Combat Global\Servidor New\Server[Launcher 2]\PointBlank.Core\Managers\Events\EventMapSyncer.cs:linha 28

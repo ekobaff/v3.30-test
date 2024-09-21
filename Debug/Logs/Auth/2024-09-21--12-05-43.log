@@ -1,0 +1,17 @@
+
+
+ ____  ____  _  _      _____    ____  _     ____  _      _  __   _    _____    ____     _ 
+/  __\/  _ \/ \/ \  /|/__ __\  /  __\/ \   /  _ \/ \  /|/ |/ /  / \ |\\__  \  /_   \/\ / |
+|  \/|| / \|| || |\ ||  / \    | | //| |   | / \|| |\ |||   /   | | //  /  |   /   /\_\| |
+|  __/| \_/|| || | \||  | |    | |_\\| |_/\| |-||| | \|||   \   | \//  _\  |__/   /_   | |
+\_/   \____/\_/\_/  \|  \_/    \____/\____/\_/ \|\_/  \|\_|\_\  \__/  /____/\/\____/   \_|
+
+
+12:05:44 [Error] System.IndexOutOfRangeException: Column must be between 0 and 13
+   konum: Npgsql.NpgsqlDefaultDataReader.IsDBNull(Int32 ordinal)
+   konum: PointBlank.Core.Managers.Server.ServerConfigSyncer.GenerateConfig(Int32 configId) C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Core\Managers\Server\ServerConfigSyncer.cs içinde: satır 35
+12:05:44 [Debug] Servidor Iniciado. (21.09.24 12:05:44)
+12:05:44 [Error] System.IndexOutOfRangeException: Column must be between 0 and 13
+   konum: Npgsql.NpgsqlDefaultDataReader.IsDBNull(Int32 ordinal)
+   konum: PointBlank.Core.Managers.Server.ServerConfigSyncer.GenerateConfig(Int32 configId) C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Core\Managers\Server\ServerConfigSyncer.cs içinde: satır 35
+12:05:44 [Debug] Auth Iniciado. 127.0.0.1

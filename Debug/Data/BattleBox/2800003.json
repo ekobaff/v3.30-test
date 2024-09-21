@@ -1,0 +1,112 @@
+{
+    "Name":"BattleBox Lion",
+    "Price":5,
+    "Enable":true,
+    "Itens": [
+        {
+            "Item": 103443,
+            "ItemName": "Lion",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 95
+        },
+		{
+            "Item": 103443,
+            "ItemName": "Lion",
+            "Count": 604800,
+            "Equip": 1,
+            "Percent": 75
+        },
+		{
+            "Item": 103443,
+            "ItemName": "Lion",
+            "Count": 2592000,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 103379,
+            "ItemName": "AUG A3 Darkness",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 202128,
+            "ItemName": "Taurus 454SS Scope Brightness",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 105216,
+            "ItemName": "Tactilite T2 Green",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 105197,
+            "ItemName": "L115A1 Lightning",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 104118,
+            "ItemName": "P90 Ext. Serpent",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 105170,
+            "ItemName": "Cheytac M200 BlueDiamond",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 407046,
+            "ItemName": "K-413 Redemption",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 103063,
+            "ItemName": "AUG A3 ESports",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 103104,
+            "ItemName": "AUG A3 GSL",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 105177,
+            "ItemName": "Tactilite T2 Puzzle",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 105090,
+            "ItemName": "Cheytac M200 Merdeka",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        },
+		{
+            "Item": 104190,
+            "ItemName": "P90 Ext. Redemption",
+            "Count": 259200,
+            "Equip": 1,
+            "Percent": 100
+        }
+    ]
+}

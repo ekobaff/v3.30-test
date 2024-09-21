@@ -1,0 +1,27 @@
+"Name":"Nome da BattleBox",
+"Price":0,
+
+//Caso false, está BattleBox não é sorteada no final da partida
+//Ainda será possivel abrir se possuir o item no inventario
+"Enable":false,
+
+//Lista dos itens para ser sorteado ao player
+//Limite: NÃO TEM LIMITE
+//OBRIGATORIO no MINIMO 1 ITEM COM 100 de PERCENT
+"Itens": 
+[
+    {
+            "Item": 103093,
+            "ItemName": "AUG A3 Blaze",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 100
+    },
+    {
+            "Item": 103323,
+            "ItemName": "AUG A3 Pirates",
+            "Count": 86400,
+            "Equip": 1,
+            "Percent": 50 
+    }
+]
