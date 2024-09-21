@@ -27,7 +27,6 @@ namespace PointBlank.Game.Network.ServerPacket
       this.writeD(this.data.ItemsCount);
       this.writeD(this.data.Offset);
       this.writeB(this.data.Buffer);
-      this.writeD(585);
     }
   }
 }

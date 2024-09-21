@@ -76,6 +76,7 @@ namespace PointBlank.Game.Network.ClientPacket
                         }
                     }
                 }
+                _client.SendPacket(new PROTOCOL_SHOP_TAG_INFO_ACK());
                 if (ShopManager.ReadFile(Environment.CurrentDirectory + "/Data/Shop/Shop.dat") == md5)
                     _client.SendPacket(new PROTOCOL_SHOP_GET_SAILLIST_ACK(false));
                 else

@@ -714,9 +714,9 @@ namespace PointBlank.Game
                 case 1027:
                     receivePacket = new PROTOCOL_SHOP_LEAVE_REQ(this, buff);
                     break;
-                //case 1029: //temp disable
-                //    receivePacket = new PROTOCOL_SHOP_GET_SAILLIST_REQ(this, buff);
-                //    break;
+                case 1029:
+                    receivePacket = new PROTOCOL_SHOP_GET_SAILLIST_REQ(this, buff);
+                    break;
                 case 1041:
                     receivePacket = new PROTOCOL_AUTH_SHOP_GET_GIFTLIST_REQ(this, buff);
                     break;
