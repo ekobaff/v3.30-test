@@ -67,3 +67,6 @@ C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Battle\obj\Debug\Poin
 C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
 C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
 C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Paul\Documents\GitHub\v3.30-test\Debug\PointBlank.Battle.exe.config
+C:\Users\Paul\Documents\GitHub\v3.30-test\Debug\PointBlank.Battle.exe
+C:\Users\Paul\Documents\GitHub\v3.30-test\Debug\PointBlank.Battle.pdb

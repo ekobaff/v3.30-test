@@ -68,3 +68,6 @@ C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Auth\obj\Debug\PointB
 C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Auth\obj\Debug\PointBlank.Auth.csproj.CopyComplete
 C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Auth\obj\Debug\PointBlank.Auth.exe
 C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Auth\obj\Debug\PointBlank.Auth.pdb
+C:\Users\Paul\Documents\GitHub\v3.30-test\Debug\PointBlank.Auth.exe.config
+C:\Users\Paul\Documents\GitHub\v3.30-test\Debug\PointBlank.Auth.exe
+C:\Users\Paul\Documents\GitHub\v3.30-test\Debug\PointBlank.Auth.pdb

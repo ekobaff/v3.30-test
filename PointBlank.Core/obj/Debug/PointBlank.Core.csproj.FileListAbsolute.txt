@@ -53,3 +53,5 @@ C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Core\obj\Debug\PointB
 C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Core\obj\Debug\PointBlank.Core.csproj.CopyComplete
 C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Core\obj\Debug\PointBlank.Core.dll
 C:\Users\ekobaff!\Desktop\v3.30 yxlmaqcun\v3.24\PointBlank.Core\obj\Debug\PointBlank.Core.pdb
+C:\Users\Paul\Documents\GitHub\v3.30-test\Debug\PointBlank.Core.dll
+C:\Users\Paul\Documents\GitHub\v3.30-test\Debug\PointBlank.Core.pdb
