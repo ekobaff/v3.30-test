@@ -13,7 +13,7 @@ namespace PointBlank.Auth.Network.ServerPacket
   {
     public override void write()
     {
-      this.writeH((short) 669);
+      this.writeH((short) 670);
       this.writeH((short) 0);
       this.writeH((short) MapModel.Rules.Count);
       for (int index = 0; index < MapModel.Rules.Count; ++index)

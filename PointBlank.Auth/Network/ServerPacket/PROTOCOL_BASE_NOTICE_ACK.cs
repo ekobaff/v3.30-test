@@ -14,7 +14,7 @@ namespace PointBlank.Auth.Network.ServerPacket
     public override void write()
     {
       ServerConfig config = AuthManager.Config;
-      this.writeH((short) 662);
+      this.writeH((short) 663);
       this.writeH((short) 0);
       this.writeD(config.ChatColor);
       this.writeD(config.AnnouceColor);

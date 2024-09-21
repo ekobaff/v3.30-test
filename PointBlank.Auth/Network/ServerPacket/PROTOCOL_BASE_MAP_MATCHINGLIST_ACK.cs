@@ -23,7 +23,7 @@ namespace PointBlank.Auth.Network.ServerPacket
 
     public override void write()
     {
-      this.writeH((short) 671);
+      this.writeH((short) 672);
       this.writeH((short) 0);
       this.writeC((byte) this.Matchs.Count);
       for (int index = 0; index < this.Matchs.Count; ++index)

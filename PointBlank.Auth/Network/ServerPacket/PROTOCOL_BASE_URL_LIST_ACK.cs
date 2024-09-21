@@ -14,7 +14,7 @@ namespace PointBlank.Auth.Network.ServerPacket
     {
       string name1 = "";
       string name2 = "";
-      this.writeH((short) 673);
+      this.writeH((short) 674);
       this.writeC((byte) 1);
       this.writeC((byte) 2);
       this.writeH((ushort) name1.Length);

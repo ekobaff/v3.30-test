@@ -12,7 +12,7 @@ namespace PointBlank.Auth.Network.ServerPacket
   {
     public override void write()
     {
-      this.writeH((short) 676);
+      this.writeH((short) 677);
       this.writeQ(1L);
       this.writeC((byte) 0);
     }
